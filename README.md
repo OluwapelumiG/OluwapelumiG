@@ -2,9 +2,9 @@
 
 ### I am
 ## AINA Oluwapelumi Gideon
-### I am a Web Developer
+### I am a Senior Software Engineer
 
-### Languages: PHP (Laravel and CodeIgniter), JavaScript (React and VueJS), Python (Django and Flask)
+### Languages: PHP (Laravel and CodeIgniter), JavaScript (React, ReactNative and VueJS), Python (Django and Flask)
 
 ### Contact: 
 ### => Whatsapp: +23480-934-96566, 
