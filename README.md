@@ -2,7 +2,7 @@
 
 ### I am
 ## AINA Oluwapelumi Gideon
-### I am a Senior Software Engineer
+### I am a Software Engineer
 
 ### Languages: PHP (Laravel and CodeIgniter), JavaScript (React, ReactNative and VueJS), Python (Django and Flask)
 
