@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, ChangeEvent, FormEvent } from 'react';
 import { FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
@@ -7,15 +7,23 @@ import { FiGithub } from "react-icons/fi";
 import { SiMinutemailer } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
+import Image from "next/image";
+
+
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
 
 export default function Home() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
     message: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData(prevState => ({
       ...prevState,
@@ -23,7 +31,7 @@ export default function Home() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     alert('Form submitted successfully!');
@@ -35,8 +43,8 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
       <div className="flex flex-col md:flex-row p-6 m-2 text-black">
               <div className="flex-none bg-white rounded-xl shadow-md w-full mx-4 md:w-1/3 p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="https://placehold.co/200x200" alt="Profile Picture" className="rounded-xl mx-auto mb-6 hover:scale-105 transition-transform duration-300" />
-                <h1 className="text-2xl text-center font-bold mb-2 hover:text-blue-500 transition-colors duration-300">Oluwapelumi Gideon, AINA</h1>
+              <Image src="/images/DSC.jpg" alt="My Picture" width={200} height={200} className="rounded-xl mx-auto mb-6 hover:scale-105 transition-transform duration-300" />
+              <h1 className="text-2xl text-center font-bold mb-2 hover:text-blue-500 transition-colors duration-300">Oluwapelumi Gideon, AINA</h1>
                 <p className="text-zinc-400 text-center mb-4">Software Engineer</p>
                 <div className="flex justify-center space-x-4 mb-6">
                   <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">

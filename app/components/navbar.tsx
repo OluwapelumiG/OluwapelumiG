@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
   const pathname = usePathname();
 
-  const isActive = (path: string) => pathname === path;
+  const isActive = (path: string): boolean => pathname === path;
 
   return (
     <div>
@@ -15,45 +15,22 @@ export default function Navbar() {
           {'{ GAPS }'}
         </div>
         <div className="flex space-x-4">
-          <Link href="/" passHref legacyBehavior>
-            <a 
-              className={`flex items-center p-2 rounded-lg transition-colors duration-300 
-                ${isActive('/') ? 'bg-blue-500 text-white' : 'bg-muted text-black hover:bg-blue-500 hover:text-white'}`}
-            >
-              <img alt="home-icon" src="https://openui.fly.dev/openui/24x24.svg?text=🏠" />
-              <span className="ml-2">Home</span>
-            </a>
-          </Link>
-
-          <Link href="/blog" passHref legacyBehavior>
-            <a 
-              className={`flex items-center p-2 rounded-lg transition-colors duration-300 
-                ${isActive('/blog') ? 'bg-blue-500 text-white' : 'bg-muted text-black hover:bg-blue-500 hover:text-white'}`}
-            >
-              <img alt="resume-icon" src="https://openui.fly.dev/openui/24x24.svg?text=📄" />
-              <span className="ml-2">Blog</span>
-            </a>
-          </Link>
-
-          <Link href="/work" passHref legacyBehavior>
-            <a 
-              className={`flex items-center p-2 rounded-lg transition-colors duration-300 
-                ${isActive('/work') ? 'bg-blue-500 text-white' : 'bg-muted text-black hover:bg-blue-500 hover:text-white'}`}
-            >
-              <img alt="work-icon" src="https://openui.fly.dev/openui/24x24.svg?text=💼" />
-              <span className="ml-2">Work</span>
-            </a>
-          </Link>
-
-          <Link href="/contact" passHref legacyBehavior>
-            <a 
-              className={`flex items-center p-2 rounded-lg transition-colors duration-300 
-                ${isActive('/contact') ? 'bg-blue-500 text-white' : 'bg-muted text-black hover:bg-blue-500 hover:text-white'}`}
-            >
-              <img alt="contact-icon" src="https://openui.fly.dev/openui/24x24.svg?text=📞" />
-              <span className="ml-2">Contact</span>
-            </a>
-          </Link>
+          {[
+            { href: '/', text: 'Home', icon: '🏠' },
+            { href: '/blog', text: 'Blog', icon: '📄' },
+            { href: '/work', text: 'Work', icon: '💼' },
+            { href: '/contact', text: 'Contact', icon: '📞' },
+          ].map(({ href, text, icon }) => (
+            <Link key={href} href={href} passHref legacyBehavior>
+              <a 
+                className={`flex items-center p-2 rounded-lg transition-colors duration-300 
+                  ${isActive(href) ? 'bg-blue-500 text-white' : 'bg-muted text-black hover:bg-blue-500 hover:text-white'}`}
+              >
+                <img alt={`${text.toLowerCase()}-icon`} src={`https://openui.fly.dev/openui/24x24.svg?text=${icon}`} />
+                <span className="ml-2">{text}</span>
+              </a>
+            </Link>
+          ))}
         </div>
       </nav>
     </div>
