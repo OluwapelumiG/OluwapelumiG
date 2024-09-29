@@ -73,27 +73,35 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 shadow-md p-4 sm:p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105">
                 <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-4 hover:text-blue-500 transition-colors duration-300">Web Development</h4>
                 <p className="text-gray-700 text-sm sm:text-base">
-                  As a developer, I find myself most captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that leverage NEXT.js and discover innovative ways to
-                  create fast, scalable, and user-friendly applications.
+                  Ready to build the web of tomorrow? I combine cutting-edge technologies with innovative design to create sleek, fast, and secure websites that captivate users and drive results. Whether you're launching a startup or growing your business, let's build a web presence that stands out!
+
+                  {/* I use my skills and experience in up-to-date technologies to provide fancy, fast, secure and user-friendly softwares. */}
+                  {/* I'm always eager to learn new technologies and provide them to my clients. */}
                 </p>
               </div>
               <div className="bg-gray-100 shadow-md p-4 sm:p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105">
                 <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-4 hover:text-blue-500 transition-colors duration-300">App Development</h4>
                 <p className="text-gray-700 text-sm sm:text-base">
-                  With a focus on user-centric design and cutting-edge technologies, I thrive on building intuitive and efficient apps that make a positive impact on people's lives. Let's turn ideas into
-                  reality and shape the future together.
+                Transform ideas into game-changing apps! With a passion for user experience and a love for innovation, I create intuitive and impactful mobile applications that connect people, solve problems, and make everyday life easier. Let's build the next big thing together!
+
+                  {/* With a focus on user-centric design and cutting-edge technologies, I thrive on building intuitive and efficient apps that make a positive impact on people's lives. Let's turn ideas into */}
+                  {/* reality and shape the future together. */}
                 </p>
               </div>
               <div className="bg-gray-100 shadow-md p-4 sm:p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105">
                 <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-4 hover:text-blue-500 transition-colors duration-300">Data Analysis</h4>
                 <p className="text-gray-700 text-sm sm:text-base">
-                  Crafting visually appealing and intuitive user interfaces that offer a delightful user experience is something I'm truly fanatic about.
+                Turn numbers into insights! I'm passionate about leveraging data to uncover trends, optimize performance, and drive informed decisions. Let me help you transform raw data into a strategic asset that powers your success!
+
+                  {/* Crafting visually appealing and intuitive user interfaces that offer a delightful user experience is something I'm truly fanatic about. */}
                 </p>
               </div>
               <div className="bg-gray-100 shadow-md p-4 sm:p-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105">
                 <h4 className="text-lg sm:text-xl font-bold mb-2 sm:mb-4 hover:text-blue-500 transition-colors duration-300">Mentorship</h4>
                 <p className="text-gray-700 text-sm sm:text-base">
-                  I have also found great joy in sharing my knowledge with others. Being a technical mentor allows me to give back to the community that has supported me throughout my career.
+                Empowering others through mentorship is my way of giving back. With hands-on guidance and a passion for nurturing talent, I help aspiring developers and tech enthusiasts level up their skills and achieve their career goals. Let's grow together!
+
+                  {/* I have also found great joy in sharing my knowledge with others. Being a technical mentor allows me to give back to the community that has supported me throughout my career. */}
                 </p>
               </div>
             </div>
