@@ -16,16 +16,16 @@ export default function Home(): JSX.Element {
             <h1 className="text-xl sm:text-2xl text-center font-bold mb-2 hover:text-blue-500 transition-colors duration-300">Oluwapelumi Gideon, AINA</h1>
             <p className="text-zinc-400 text-center mb-4">Software Engineer</p>
             <div className="flex justify-center space-x-2 sm:space-x-4 mb-6">
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://wa.me/message/CRHFR45SVC6IH1" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <IoLogoWhatsapp />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://web.facebook.com/oluwapelumigedion" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <FaLinkedinIn />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://twitter.com/gapsaina" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <BsTwitterX />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://github.com/OluwapelumiG" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <FiGithub />
               </a>
             </div>
@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
                 </span>
                 <div>
                   <p className="text-gray-500">phone</p>
-                  <p className="text-sm sm:text-base">+254723909353</p>
+                  <p className="text-sm sm:text-base">+2348129241613</p>
                 </div>
               </div>
               <hr className="mb-4" />
@@ -46,7 +46,7 @@ export default function Home(): JSX.Element {
                 </span>
                 <div>
                   <p className="text-gray-500">email</p>
-                  <p className="text-sm sm:text-base">+254723909353</p>
+                  <p className="text-sm sm:text-base">ainaoluwapelumigideon@gmail.com</p>
                 </div>
               </div>
               <hr className="mb-4" />
@@ -56,7 +56,7 @@ export default function Home(): JSX.Element {
                 </span>
                 <div>
                   <p className="text-gray-500">location</p>
-                  <p className="text-sm sm:text-base">+254723909353</p>
+                  <p className="text-sm sm:text-base">Lokoja, Kogi State, Nigeria</p>
                 </div>
               </div>
             </div>

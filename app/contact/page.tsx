@@ -42,52 +42,52 @@ export default function Home() {
     <div className="container mx-auto px-4">
       <main className="flex flex-col gap-8 items-center sm:items-start">
         <div className="flex flex-col lg:flex-row p-4 m-2 text-black">
-          <div className="flex-none bg-white rounded-xl shadow-md w-full lg:w-1/3 p-6 mb-8 lg:mb-0 lg:mr-8 hover:shadow-lg transition-shadow duration-300">
+        <div className="flex-none bg-white rounded-xl shadow-md w-full mx-2 sm:mx-4 lg:w-1/3 p-4 sm:p-6 mb-6 lg:mb-0 hover:shadow-lg transition-shadow duration-300">
             <Image src="/images/DSC.jpg" alt="My Picture" width={200} height={200} className="rounded-xl mx-auto mb-6 hover:scale-105 transition-transform duration-300" />
-            <h1 className="text-2xl text-center font-bold mb-2 hover:text-blue-500 transition-colors duration-300">Oluwapelumi Gideon, AINA</h1>
+            <h1 className="text-xl sm:text-2xl text-center font-bold mb-2 hover:text-blue-500 transition-colors duration-300">Oluwapelumi Gideon, AINA</h1>
             <p className="text-zinc-400 text-center mb-4">Software Engineer</p>
-            <div className="flex justify-center space-x-4 mb-6">
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+            <div className="flex justify-center space-x-2 sm:space-x-4 mb-6">
+              <a href="https://wa.me/message/CRHFR45SVC6IH1" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <IoLogoWhatsapp />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://web.facebook.com/oluwapelumigedion" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <FaLinkedinIn />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://twitter.com/gapsaina" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <BsTwitterX />
               </a>
-              <a href="#" className="text-blue-500 bg-gray-100 shadow-md p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="https://github.com/OluwapelumiG" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <FiGithub />
               </a>
             </div>
-            <div className="bg-gray-100 shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-gray-100 shadow-md p-4 sm:p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center mb-4 hover:translate-x-2 transition-transform duration-300">
-                <span className="text-4xl mr-4">
+                <span className="text-3xl sm:text-4xl mr-4">
                   <FaPhone className="text-blue-500" />
                 </span>
                 <div>
                   <p className="text-gray-500">phone</p>
-                  <p>+254723909353</p>
+                  <p className="text-sm sm:text-base">+2348129241613</p>
                 </div>
               </div>
               <hr className="mb-4" />
               <div className="flex items-center mb-4 hover:translate-x-2 transition-transform duration-300">
-                <span className="text-4xl mr-4">
+                <span className="text-3xl sm:text-4xl mr-4">
                   <SiMinutemailer className="text-blue-500" />
                 </span>
                 <div>
                   <p className="text-gray-500">email</p>
-                  <p>+254723909353</p>
+                  <p className="text-sm sm:text-base">ainaoluwapelumigideon@gmail.com</p>
                 </div>
               </div>
               <hr className="mb-4" />
               <div className="flex items-center hover:translate-x-2 transition-transform duration-300">
-                <span className="text-4xl mr-4">
+                <span className="text-3xl sm:text-4xl mr-4">
                   <FaMapMarkerAlt className="text-blue-500" />
                 </span>
                 <div>
                   <p className="text-gray-500">location</p>
-                  <p>+254723909353</p>
+                  <p className="text-sm sm:text-base">Lokoja, Kogi State, Nigeria</p>
                 </div>
               </div>
             </div>
