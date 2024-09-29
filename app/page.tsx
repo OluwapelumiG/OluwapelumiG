@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
               <a href="https://wa.me/message/CRHFR45SVC6IH1" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <IoLogoWhatsapp />
               </a>
-              <a href="https://web.facebook.com/oluwapelumigedion" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
+              <a href="http://linkedin.com/in/the-aina-oluwapelumi" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
                 <FaLinkedinIn />
               </a>
               <a href="https://twitter.com/gapsaina" target="_blank" className="text-blue-500 bg-gray-100 shadow-md p-2 sm:p-4 rounded-md hover:text-white hover:bg-blue-500 transition-all duration-300">
